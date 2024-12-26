@@ -1,8 +1,8 @@
 const express = require('express')
 const cors = require('cors')
-const admin_v1 = require('./routes/admin_v1')
-const auth_v1 = require('./routes/auth_v1')
-const { middleware } = require('./mid_handler')
+const admin_v1 = require('../routes/admin_v1')
+const auth_v1 = require('../routes/auth_v1')
+const { middleware } = require('../mid_handler')
 require('dotenv').config()
 
 const port = process.env.PORT || 8080
